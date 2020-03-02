@@ -1,5 +1,5 @@
 #landing-page {
-  background-image: url("../images/pizza1.jpg");
+  background-image: url("../images/back.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -43,7 +43,12 @@
 .form-group, h2{
   background-color: transparent;
   opacity: 0.6;
-  text-align: center;
-  color: rgb(95, 173, 92);
+  text-align: right;
+  float: right;
+  color: rgb(5, 493, 92);
+  font-family:monospace !important;
+  font-weight:lighter;
+  margin-right: 1%;
+  margin-left: 10%;
 
 }
