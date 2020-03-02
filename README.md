@@ -1,14 +1,16 @@
 # Pizza
-It is a pizza website
+It is a pizza website.
 ## Made by:
 George K Mbaria
 ### Description
-This is a site that helps pizza customers to order any type of pizza as we do delivery for them  
+This is a site that helps pizza customers to order any type of pizza as we do delivery for them.
 ### Project live site
   Don't hesitate to click and watch our live site...
   https://kmbaria.github.io/pizza/.
+  
 ### Setup instructions
-*  No set up instruction for the moment
+*  No set up instruction for the moment.
+
 ### Technologies Used:
 * HTML.
 * CSS & Bootsrap.
