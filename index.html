@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" type="images/jpg" href="images/george.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="images/jpg" href="images/george.jpg">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -9,7 +10,8 @@
     <title> Pizzaro</title>
 </head>
 <body>
-    <div class="container-fluid" id="landing-page">
+    <div class="container-fluid" id="landing">
+
         <nav class="navbar navbar-expand-lg fixed-top navigation navbar-light">
             <button class ="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-label="Toggle nav">
                 <span class="navbar-toggler-icon"></span>
@@ -22,9 +24,7 @@
                     <li class="nav-item">
                         <a href="#" class="nav-link">Order</a>
                     </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">Restaurant</a>
-                    </li>
+
                     <li class="nav-item">
                         <a href="#" class="nav-link">Menu</a>
                     </li>
@@ -33,80 +33,81 @@
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav> <br> <br>
+            <section class="middle"><br>
+              <h1>piZZaro</h1>
+		<p>Here are the various types which you can order.</p>
+		<div class="column-pizza">
+			<div class="row" id="margin">
+				<div class="col-md-4">
+					<img src="images/vegeterian.jpg" width="300px" height="250px"></a>
+					<div class="description">Vegeterian Pizza</div>
+				</div>
+				<div class="col-md-4">
+					<img src="images/pizza2.jpg" width="300px" height="250px"></a>
+					<div class="description">Boewors Pizza</div>
+				</div>
+				<div class="col-md-4">
+					<img src="images/vegeterian3.jpg" width="300px" height="250px"></a>
+					<div class="description">Spicy Vegeterian Pizza</div>
+				</div>
+			</div> <br>
+			<div class="row">
+				<div class="col-md-4">
+					<img src="images/pepperoni.jpg" width="300px" height="250px"></a>
+					<div class="description">Pepperoni Pizza</div>
+				</div>
+				<div class="col-md-4">
+					<img src="images/buffalo_chicken.jpg" width="300px" height="250px"></a>
+					<div class="description">Buffalo Chicken Pizza</div>
+        				</div>
+				<div class="col-md-4">
+					<img src="images/BBQ_chicken.jpg" width="300px" height="250px"></a>
+					<div class="description">BBQ Chicken Pizza</div>
+         </div>
+				<div class="container text-center">
+					<div class="col-lg-4-offset-4">
+						<button class="button1">Place Order</button>
+						<div>
+							<p id="order"></p>
+						</div>
+						<form class="form1">
+							<h3>Type of pizza</h3>
+							<select name="select" id="select">
+								<option value=""></option>
+								<option value="vegeterian">Vegeterian Pizza</option>
+								<option value="boewors">Boewors Pizza</option>
+								<option value="spicy">Spicy Vegeterian Pizza</option>
+								<option value="pepperoni">Pepperoni Pizza</option>
+								<option value="buffalo">Buffalo Chicken Pizza</option>
+								<option value="bbq">BBQ Chicken Pizza</option>
+							</select>
+							<h3>Size</h3>
+							Large:<input type="radio" name="size" id="large" required>
+							Medium:<input type="radio" name="size" id="medium" required>
+							Small:<input type="radio" name="size" id="small" required>
+							<h3>Toppings</h3>
+							Pepperoni:<input type="radio" name="toppings" id="pepperoni" required>
+							Sardines:<input type="radio" name="toppings" id="sardines" required>
+							Pineapples:<input type="radio" name="toppings" id="pineapples" required>
+							Mushrooms:<input type="radio" name="toppings" id="mushrooms" required>
+							<h3>Type of Crust</h3>
+							Crispy: <input type="radio" name="crust" id="crispy" required>
+							Stuffed: <input type="radio" name="crust" id="stuffed" required>
+							Glutten free: <input type="radio" name="crust" id="gluttenFree" required>
+							<h3>Do you require delivery</h3>
+							<input type="radio" name="delivery" id="yes" required>Yes <br>
+							<input type="radio" name="delivery" id="no"required>No <br>
+							Put your address: <input type="text" name="delivery" id="address">
+							<button class="button7">Order Placed</button>
+						</form>
 
-
-        <div class="row justify-content-center align-items-center min-vh-100">
-            <form action="#" class="form-horizontal" id="pizzaform">
-                <div class="form-group card" id="pizzasize" hidden>
-                    <h3>Which Size Do You Prefer?</h3>
-                    <label><input type="radio" name="size" id="">Small</label>
-                    <label
-                    ￼Mushrom><input type="radio" name="size" id="">Medium</label>
-                    <label><input type="radio" name="size" id="">Large</label>
-                   <input type="submit" value="Proceed" class="btn navigation">
-                </div>
-
-                <div class="form-group card" id="pizzacrust" hidden>
-                    <h3>What Kind of Crust?</h3>
-                    <label>
-                        <input type="radio" name="crust" id="crispy">Crispy
-                    </label>
-                    <label>
-                        <input type="radio" name="crust" id="stuffed">Stuffed
-                    </label>
-                    <label>
-                        <input type="radio" name="crust" id="gluten-free">Gluten-free
-                    </label>
-                    <input type="submit" value="Proceed" class="btn navigation"
-                    id="sizepizza">
-
-                </div>
-
-                <div class="form-group card" id="pizzatopping" hidden>
-                    <h3>Which Topping?</h3>
-                    <label> <input type="checkbox" Value="Pepperoni">pepperoni</label>
-                    <label> <input type="checkbox" value="Sausage">sausage</label>
-                    <label> <input type="checkbox" value="Mushrom">Mushrom</label>
-                    <label> <input type="checkbox" value="Green Pepper">Green Pepper</label>
-                    <label> <input type="checkbox" value="Olive">Olive</label>
-                    <label> <input type="checkbox" value="Onions">Onions</label>
-                    <label> <input type="checkbox" value="Extra cheese">Extra Cheese</label>
-                    <label> <input type="checkbox" value="pineapple">Pineapple</label>
-                    <input type="submit" value="proceed" class="btn navigation"
-                    id="toppingpizza">
-
-                </div>
-
-                <div class="form-group card" id="pizzanumbers" hidden>
-                    <h3>Number Of Pizzas</h3>
-                    <label><input type="radio" name="number" value="1">One</label>
-                    <label><input type="radio" name="number" value="2">Two</label>
-                    <label><input type="radio" name="number" value="3">Three</label>
-                    <label><input type="radio" name="number" value="4">Four</label>
-                    <label><input type="radio" name="number">Other
-                        <input type="number" min="1" name="" class="form-control" hidden>
-                    </label>
-                    <input type="submit" value="Proceed" class="btn navigation" id="numberpizza">
-                </div>
-
-                <div class="form-group card" id="pizzadelivery" hidden>
-                    <h3>Do you want it delivered?</h3>
-                    <label>
-                        <input type="radio" value="yes" name="delivery" id="delivery">Yes
-                    </label>
-                    <label>
-                        <input type="radio" value="no" name="delivery" id="delivery"> No
-                    </label>
-                    <input type="submit" value="Proceed" class="btn navigation" id="deliverypizza">
-                </div>
-
-                <div  <button type="button" class="btn btn-outline-success" id="pizzacheckout">
-                    <h3>Checkout</button> </h3>
-
-                </div>
-            </form>
-            <div class="contact">
+            <br>
+					</div>
+				</div>
+   	</section>
+			</div>
+        <!-- <div class="contact">
          <h2>CONTACT US</h2>
          <div class="form-group">
            <input class="left" type="text" id="george" placeholder="Name" size="20">
@@ -118,11 +119,25 @@
            onclick="functionName()">Submit</button>
             </div>
        </div>
-        </div>
-
+     </div> <br>
+        <div class="raw2">
+         <div class="col-md-10">
+          <img src="images/social_icons/twitter.png" />
+          <img src="images/social_icons/dribble.png" />
+          <img src="images/social_icons/facebook.png" />
+          <img src="images/social_icons/g_plus.png" />
+          <img src="images/social_icons/skype.png" />
+          <img src="images/social_icons/stumble_upon.png" />
+          <img src="images/social_icons/behance.png" />
+          <img src="images/social_icons/you_tube.png" />
+          <img src="images/social_icons/pinterest.png" />
+          <img src="images/social_icons/flickr.png" />
+         </div>
+        </div> -->
         <div class="middle">
                Copyright © Pizzaro by<br> George Kmbaria.
                </div>
+    </div>
     </div>
     <script src="js/scripts.js" type="text/javascript"></script>
   <script src="js/jquery-3.3.1.min.js"></script>

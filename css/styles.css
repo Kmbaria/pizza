@@ -1,8 +1,10 @@
-#landing-page {
+#landing {
   background-image: url("../images/back.jpg");
-  background-size: cover;
+  background-size: cover!important;
   background-repeat: no-repeat;
   background-position: center;
+ width: 100%;
+  height: 100%;
 }
 
 .navigation {
@@ -16,30 +18,66 @@
   text-align: right !important;
 }
 
-, #pizzacheckout {
-  padding: 25px;
-  border-radius: 12px 5px;
-  text-align: left;
-
+.button1{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 24px;
+    color: #000;
+    transition: 0.25s;
+    cursor: pointer;
+}
+#margin{
+margin-left: 0.5%;
+margin-right: 1%;
+}
+.button1:hover{
+    background-color: lawngreen;
+    text-align: center;
+}
+.button7{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px 30px;
+    outline: none;
+    border-radius: 24px;
+    color: #000;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.button7:hover{
+    background-color: lawngreen;
+}
+.form1{
+    display: none;
+    background-color: #fff;
+    border-radius: 24px;
 }
 
-#pizzasize, #pizzatopping, #pizzacrust, #pizzanumbers, #pizzadelivery{
+ .gif{
+   text-align: center !important;
+   /* margin-right: 200%!important; */
+   float: none;
 
-}
-#pizzaform {
-  transition: .2s;
-}
-#pizzaform:hover {
-  margin: -1% 0 0 0;
-  transition: all .4s;
-}
-
+ }
 
 .middle{
   text-align: center;
     color: rgb(95, 173, 92);
 }
-
+.raw2{
+  text-align: center;
+  margin-left: 10%;
+}
 .form-group, h2{
   background-color: transparent;
   opacity: 0.6;
@@ -51,4 +89,7 @@
   margin-right: 1%;
   margin-left: 10%;
 
+}
+.contact{
+  text-align: center;
 }
