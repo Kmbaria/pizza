@@ -3,10 +3,12 @@
   background-size: cover!important;
   background-repeat: no-repeat;
   background-position: center;
- width: 100%;
+  width: 100%;
   height: 100%;
 }
-
+.font{
+  font-size: larger;
+}
 .navigation {
   background: rgba(255, 0, 0, 0.6);
   color: #fff;
@@ -18,7 +20,7 @@
   text-align: right !important;
 }
 .form1, .button1{
-  /*display: none;*/
+  display: none;
 }
 .button1{
     border: 0;
@@ -58,7 +60,7 @@ margin-right: 1%;
     cursor: pointer;
 }
 .button7:hover{
-    background-color: lawngreen;
+    background-color: red;
 }
 .form1{
     display: none;
@@ -68,14 +70,12 @@ margin-right: 1%;
 
  .gif{
    text-align: center !important;
-   /* margin-right: 200%!important; */
-   float: none;
-
  }
 
 .middle{
   text-align: center;
-    color: rgb(95, 173, 92);
+    color: lawngreen;
+    font-weight:lighter;
 }
 .raw2{
   text-align: center;
@@ -84,8 +84,7 @@ margin-right: 1%;
 .form-group, h2{
   background-color: transparent;
   opacity: 0.6;
-  text-align: right;
-  float: right;
+  text-align: center;
   color: rgb(5, 493, 92);
   font-family:monospace !important;
   font-weight:lighter;
@@ -95,4 +94,7 @@ margin-right: 1%;
 }
 .contact{
   text-align: center;
+  color: rgb(95, 173, 92);
+  font-family:monospace !important;
+  
 }
