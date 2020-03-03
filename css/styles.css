@@ -6,9 +6,11 @@
   width: 100%;
   height: 100%;
 }
-.font{
+
+.font {
   font-size: larger;
 }
+
 .navigation {
   background: rgba(255, 0, 0, 0.6);
   color: #fff;
@@ -16,90 +18,100 @@
   text-align: right !important;
   font-size: larger;
 }
+
 .navbar-nav .nav-item .nav-link {
   color: rgb(95, 173, 92);
   text-align: right !important;
 }
-.form1, .button1{
+
+.form1, .button1 {
   display: none;
 }
-.button1{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 10px auto;
-    text-align: center;
-    border: 1px solid;
-    padding: 10px 30px;
-    outline: none;
-    border-radius: 24px;
-    color: #000;
-    transition: 0.25s;
-    cursor: pointer;
-}
-#margin{
-margin-left: 0.5%;
-margin-right: 1%;
-}
-.button1:hover{
-    background-color: red;
-    text-align: center;
-    color:white;
-}
-.button7{
-    border: 0;
-    background: none;
-    display: block;
-    margin: 10px auto;
-    text-align: center;
-    border: 1px solid;
-    padding: 10px 30px;
-    outline: none;
-    border-radius: 24px;
-    color: #000;
-    transition: 0.25s;
-    cursor: pointer;
-}
-.button7:hover{
-    background-color: red;
-}
-.form1{
-    display: none;
-    background-color: #fff;
-    border-radius: 24px;
-}
 
- .gif{
-   text-align: center !important;
- }
-
-.middle{
+.button1 {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 10px auto;
   text-align: center;
-    color: lawngreen;
-    font-weight:lighter;
+  border: 1px solid;
+  padding: 10px 30px;
+  outline: none;
+  border-radius: 24px;
+  color: #000;
+  transition: 0.25s;
+  cursor: pointer;
 }
-.raw2{
+
+#margin {
+  margin-left: 0.5%;
+  margin-right: 1%;
+}
+
+.button1:hover {
+  background-color: red;
+  text-align: center;
+  color: white;
+}
+
+.button7 {
+  border: 0;
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 1px solid;
+  padding: 10px 30px;
+  outline: none;
+  border-radius: 24px;
+  color: #000;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.button7:hover {
+  background-color: red;
+}
+
+.form1 {
+  display: none;
+  background-color: #fff;
+  border-radius: 24px;
+}
+
+.gif {
+  text-align: center !important;
+}
+
+.middle {
+  text-align: center;
+  color: lawngreen;
+  font-weight: lighter;
+}
+
+.raw2 {
   text-align: center;
   margin-left: 10%;
 }
-.form-group, h2{
+
+.form-group, h2 {
   background-color: transparent;
   opacity: 0.6;
   text-align: center;
   color: rgb(5, 493, 92);
-  font-family:monospace !important;
-  font-weight:lighter;
+  font-family: monospace !important;
+  font-weight: lighter;
   margin-right: 1%;
   margin-left: 10%;
-
 }
-.contact{
+
+.contact {
   text-align: center;
   color: rgb(95, 173, 92);
-  font-family:monospace !important;
+  font-family: monospace !important;
   margin-right: 5%;
-  
 }
-.padding{
+
+.padding {
   margin-right: 8%;
 }
